@@ -22,7 +22,6 @@ body {
 .nav-item{
     display: inline;
     font-family: 'Lilita One', cursive;
-    margin-top: 10px;
     text-align: center;
     width: 150px;
 }
