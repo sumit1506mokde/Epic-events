@@ -1,3 +1,84 @@
+body {
+  padding: 0;
+  margin: auto;
+}
+/*--- navigation bar ---*/
+.navbar {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: black
+
+}
+.nav-link,.navbar-brand {
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.nav-item{
+    display: inline;
+    font-family: 'Lilita One', cursive;
+    margin-top: 10px;
+    text-align: center;
+    width: 150px;
+}
+/*btn hover effect start */
+    .btnn{
+        /*border:1px solid #00c2cb;*/
+        background:none;
+        padding: 10px 20px;
+        font-size: 17px;
+        cursor: pointer; 
+        transition: 0.8s;
+        position: relative;
+        overflow: hidden;
+    }
+    .btn3{
+        color: #fff;  
+    }
+    .btn3:hover{
+          color: white;
+    }
+    .btnn::before{
+        content:"";
+        position:absolute;
+        left:0;
+        width:100%;
+        height:0%;
+        background:black;
+        z-index: -1;
+        transition: 0.8s;
+    }
+
+    .btn3::before{
+        top:0;
+        border-radius: 0 0 50% 50%;
+    }
+
+    .btn3:hover::before{
+        height: 180%;
+        background-color: #00c2cb;
+    }
+    .btnhome{
+      color: #00c2cb;
+    }
+/*btn honer end*/
+/*Nav bar end*/
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
