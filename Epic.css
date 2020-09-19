@@ -190,6 +190,26 @@ body {
 /*slider End*/
 
 
+/*slogan section Start*/
+.sloganicon{
+  margin-top: 20px;
+  text-align: center;
+}
+.slogan{
+  text-align: center;
+  margin-top: 20px;
+}
+.slogan h3{
+  display: inline;
+  color: #073f5d;
+}
+.slogan span{
+  color: #FF6600;
+  font-size: 30px;
+}
+/*Slogan Section End*/
+
+
 
 
 
