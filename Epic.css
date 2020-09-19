@@ -37,7 +37,7 @@ body {
         overflow: hidden;
     }
     .btn3{
-        color: #fff;  
+        color: #073f5d;  
     }
     .btn3:hover{
           color: white;
@@ -48,7 +48,7 @@ body {
         left:0;
         width:100%;
         height:0%;
-        background:black;
+        background:#ba641e;
         z-index: -1;
         transition: 0.8s;
     }
@@ -60,10 +60,10 @@ body {
 
     .btn3:hover::before{
         height: 180%;
-        background-color: #00c2cb;
+        background-color: #ba641e;
     }
     .btnhome{
-      color: #00c2cb;
+      color: #ba641e;
     }
 /*btn honer end*/
 /*Nav bar end*/
