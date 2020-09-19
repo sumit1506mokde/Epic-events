@@ -63,8 +63,7 @@
             </div>
 
             <div class="imagecon">
-                <div id="img2" class="ml2 d-none d-md-block">Every Event Is Beautiful, But We Will Make Yours Unique</div>
-                <div id="img2" class="ml7 d-block d-md-none"> Every Event Is -- Beautiful, But We Will Make Yours Unique</div>
+                <div id="img2" class="ml2">Every Event Is "Beautiful", But We Will Make Yours "Unique"</div>
             </div>
 
             <div class="imagecon">
@@ -72,8 +71,7 @@
             </div>
 
             <div class="imagecon">
-                <div id="img4" class="ml4 d-none d-md-block">Exclusive Events And Priceless Memories</div>
-                <div id="img4" class="ml6 d-block d-md-none">Exclusive - Events - And - Priceless -  Memories</div>
+                <div id="img4" class="ml4">Exclusive Events And Priceless Memories</div>
             </div>
 
             <div class="imagecon" >
@@ -293,25 +291,7 @@
             easing: "easeOutExpo",
             delay: 1000
           });
-          var textWrapper = document.querySelector('.ml7');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-        anime.timeline({loop: true})
-          .add({
-            targets: '.ml7 .letter',
-            scale: [4,1],
-            opacity: [0,1],
-            translateZ: 0,
-            easing: "easeOutExpo",
-            duration: 950,
-            delay: (el, i) => 70*i
-          }).add({
-            targets: '.ml7',
-            opacity: 0,
-            duration: 1000,
-            easing: "easeOutExpo",
-            delay: 1000
-          });
+          
           var textWrapper = document.querySelector('.ml3');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -350,25 +330,7 @@
             easing: "easeOutExpo",
             delay: 1000
           });
-          var textWrapper = document.querySelector('.ml6');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-        anime.timeline({loop: true})
-          .add({
-            targets: '.ml6 .letter',
-            scale: [4,1],
-            opacity: [0,1],
-            translateZ: 0,
-            easing: "easeOutExpo",
-            duration: 950,
-            delay: (el, i) => 70*i
-          }).add({
-            targets: '.ml6',
-            opacity: 0,
-            duration: 1000,
-            easing: "easeOutExpo",
-            delay: 1000
-          });
+          
           var textWrapper = document.querySelector('.ml5');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
