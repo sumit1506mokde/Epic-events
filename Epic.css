@@ -70,6 +70,128 @@ body {
 
 
 
+/*Slider Start*/
+.slider{
+      height: 600px;
+      width: 100%;
+      overflow: hidden;
+      font-family: 'Tenor Sans', sans-serif;
+      letter-spacing: 5px;
+    }
+
+    .sliderchild{
+      height: 600px;
+      width: 500%;
+      animation: slider infinite 30s 3s/*2s for delay*/;
+    }
+
+    .imagecon{
+      height: 600px;
+      width: 20%;
+      float:left;
+    }
+    #img1{
+      padding-top: 300px;
+      font-size: 40px;
+      font-weight: 900;
+      text-shadow: 3px 3px 8px black;
+      text-align: center;
+      color: white;
+    }
+    #img2{
+      padding-top: 250px;
+      font-size: 35px;
+      font-weight: 900;
+      text-shadow: 3px 3px 8px black;
+      text-align: center;
+      color: white;
+    }
+    #img3{
+      text-align: center;
+      font-size: 35px;
+      color: white;
+      font-weight: 900;
+      padding-top: 300px;
+      text-shadow: 3px 3px 8px black;
+    }
+    #img4{
+      text-align: center;
+      color: white;
+      padding-top: 300px;
+      font-size: 35px;
+      font-weight: 800;
+      text-shadow: 3px 3px 8px black;
+      letter-spacing: 3px;
+    }
+
+    .imagecon:nth-child(1){
+      background-image: url('slider4.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+    .imagecon:nth-child(2){
+      background-image: url('slider1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+
+    .imagecon:nth-child(3){
+      background-image: url('slider3.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+
+    .imagecon:nth-child(4){
+      background-image: url('slider2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 27%;
+    }
+
+    .imagecon:nth-child(5){
+      background-image: url('slider4.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 40%;
+    }
+     @keyframes slider{
+      12.5%{
+        margin-left: -100%;
+      }
+      25%{
+        margin-left: -100%;
+      }
+      37.5%{
+        margin-left: -200%;
+      }
+      50%{
+        margin-left: -200%;
+      }
+      62.5%{
+        margin-left: -300%;
+      }
+      75%{
+        margin-left: -300%;
+      }
+      87.5%{
+        margin-left: -400%;
+      }
+      100%{
+        margin-left: -400%;
+      }
+     }
+     /*for js code this is required for animation*/
+     .ml1 .letter, .ml2 .letter, .ml3 .letter, .ml4 .letter, .ml5 .letter, .ml6 .letter, .ml7 .letter {
+      display: inline-block;
+    }
+/*slider End*/
+
+
+
+
 
 
 
