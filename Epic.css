@@ -82,47 +82,26 @@ body {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background:  #0c0b09;
+  background:  #073f5d;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: black;
+  background: #073f5d;
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
   padding: 60px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
-  
+  background-color: #073f5d;
 }
 
-
-#footer .copyright .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background:#00c2cb;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .copyright  .social-links a:hover {
-  background: #5e17eb;
-  color: #fff;
-  text-decoration: none;
-}
-
-#footer h5{
-  color: #00c2cb;
+#footer .footer-top .footer-info img{
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 7px #042638;
 }
 
 #footer .footer-top .about-us .id:hover{
@@ -131,14 +110,11 @@ body {
 
 #footer .footer-top h4 {
   font-family: 'Lilita One', cursive;
-  color: #00c2cb;
+  color: #ff6600;
   position: relative;
   padding-bottom: 12px;
 }
 
-#footer .footer-top .footer-links {
- 
-}
 
 #footer .footer-top .footer-links ul {
   list-style: none;
@@ -147,6 +123,13 @@ body {
 }
 
 #footer .footer-top .footer-links ul li {
+  
+  color: #ff6600;
+  font-size: 17px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li a{
   
   color: white;
   font-size: 17px;
@@ -171,11 +154,11 @@ body {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #00c2cb;
+  color: #ff6600;
 }
 
 #footer .footer-newsletter{
-  background-color:#00c2cb;
+  background-color: #073f5d;
   margin: 0px; 
   color: black;
   margin-top: 10px;
@@ -189,7 +172,7 @@ body {
   position: relative;
   border-radius: 50px;
   border: 1px solid #454035;
-  width: 90%
+  width: 80%
 }
 
 #footer .footer-newsletter form input[type="email"] {
@@ -197,6 +180,7 @@ body {
   padding: 4px;
   width: calc(100% - 110px);
   background: white;
+ 
 }
 
 #footer .footer-newsletter form input[type="submit"] {
@@ -208,24 +192,48 @@ body {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: black;
+  background-color: #073f5d;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #5e17eb;
+  background: black;
 }
 
-#footer .footer-newsletter h4{
+#footer .footer-newsletter h3{
   font-family: 'Lilita One', cursive;
+  color:  #073f5d;
 }
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 0px;
 }
 
 #footer .copyright h3{
   font-family: 'Lilita One', cursive;
+  color: #ff6600;
+}
+
+#footer .copyright .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #ff6600;
+  color: white;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .copyright  .social-links a:hover {
+  background: #073f5d;
+  color: #fff;
+  text-decoration: none;
 }
