@@ -8,13 +8,13 @@ body {
     top: 0;
     width: 100%;
     background-color: white;
-
 }
 .nav-link,.navbar-brand {
     cursor: pointer;
 }
 .nav-link {
     margin-right: 1em;
+    font-weight: 900;
 }
 .navbar-collapse {
     justify-content: flex-end;
