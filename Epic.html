@@ -19,14 +19,15 @@
  <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet"><!--font link-->
 </head>
 <body>
-
+  
+  <!--navbar start-->
   <nav class="navbar navbar-expand-xl fixed-top header">
         <div class="container-fluid" style="border-bottom: 3px solid #ff6600; margin-bottom: 0px;">
 
             <a href="Epic.html" class="navbar-brand mr-6 d-none d-xs-block"><img src="logo.PNG" height="75" width="300"></a>
             <a href="Epic.html" class="navbar-brand mr-6 d-block d-xs-none"><img src="logo.PNG" height="75" width="250"></a>
 
-            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <button id="navbarToggle" class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         	
@@ -49,44 +50,59 @@
                     </li>
                 </ul>
             </div> 
-
-
         </div>
     </nav>
+  <!--navbar end-->
   
   
-   <!--slider start-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-12 p-0">
-          <div class="slider">
-              <div class="sliderchild">
-                  <div class="imagecon">
-                      <div id="img1" class="ml1"> -Welcome To - "EPIC EVENTS"</div>
-                  </div>
+  <!--slider start-->
+    <div class="slider d-block d-md-none">
+        <div class="sliderchild">
+            <div class="imagecon">
+                <div id="img1"> -Welcome To -<br>"EPIC EVENTS"</div>
+            </div>
 
-                  <div class="imagecon">
-                      <div id="img2" class="ml2 d-none d-md-block">Every Event Is Beautiful, But We Will Make Yours Unique</div>
-                      <div id="img2" class="ml7 d-block d-md-none"> Every Event Is -- Beautiful, But We Will Make Yours Unique</div>
-                  </div>
+            <div class="imagecon">
+                <div id="img2">Every Event Is <br> "Beautiful", But<br> We Will Make<br> Yours "Unique"</div>
+            </div>
 
-                  <div class="imagecon">
-                      <div id="img3" class="ml3">Make Your Event Stand Out From "Rest"</div>
-                  </div>
+            <div class="imagecon">
+                <div id="img3">Make Your Event <br>Stand Out From<br> "Rest"</div>
+            </div>
 
-                  <div class="imagecon">
-                      <div id="img4" class="ml4 d-none d-md-block">Exclusive Events And Priceless Memories</div>
-                      <div id="img4" class="ml6 d-block d-md-none">Exclusive - Events - And - Priceless -  Memories</div>
-                  </div>
+            <div class="imagecon">
+                <div id="img4">Exclusive Events <br>& Priceless Memories</div>
+            </div>
 
-                  <div class="imagecon" >
-                      <div id="img1" class="ml5">- Welcome To - "EPIC EVENTS"</div>
-                  </div>
-              </div>
-          </div>
+            <div class="imagecon" >
+                <div id="img1"> - Welcome To - <br> "EPIC EVENTS"</div>
+            </div>
+        </div>
     </div>
-   </div>
-  </div>
+
+    <div class="slider d-none d-md-block">
+        <div class="sliderchild">
+            <div class="imagecon">
+                <div id="img1" class="ml1"> -Welcome To - "EPIC EVENTS"</div>
+            </div>
+
+            <div class="imagecon">
+                <div id="img2" class="ml2">Every Event Is "Beautiful", But We Will Make Yours "Unique"</div>
+            </div>
+
+            <div class="imagecon">
+                <div id="img3" class="ml3">Make Your Event Stand Out From "Rest"</div>
+            </div>
+
+            <div class="imagecon">
+                <div id="img4" class="ml4">Exclusive Events And Priceless Memories</div>
+            </div>
+
+            <div class="imagecon" >
+                <div id="img1" class="ml5">- Welcome To - "EPIC EVENTS"</div>
+            </div>
+        </div>
+    </div>
     <!--slider end-->
   
   
@@ -229,6 +245,30 @@
   duration: 1200,
 })
 </script>
+  
+  <!--script for the nav bar toggler button to collapse back automatically when clickes somewhere else-->
+    <script>
+       $(function () { 
+          $("#navbarToggle").blur(function (event) {
+            var screenWidth = window.innerWidth;
+            if (screenWidth < 1025) {
+              $("#main-navigation").collapse('hide');
+            }
+          });
+
+          // In Firefox and Safari, the click event doesn't retain the focus
+          // on the clicked button. Therefore, the blur event will not fire on
+          // user clicking somewhere else in the page and the blur event handler
+          // which is set up above will not be called.
+          // Refer to issue #28 in the repo.
+          // Solution: force focus on the element that the click event fired on
+          $("#navbarToggle").click(function (event) {
+            $(event.target).focus();
+          });
+        });
+
+    </script>
+    <!--navbar toggler script end-->
   
   
   <!--slider js code start-->
