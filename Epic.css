@@ -277,7 +277,7 @@ body {
   visibility: visible;
   opacity: 1;
   margin-top: -40px;
-  transition-delay: 0.5s;
+  transition: 0.7s;
 }
 .Jepicsec .Jcard .Jcontent h1{
   font-family:'Pacifico', cursive;
@@ -334,9 +334,12 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
   margin-top: 10px;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
 }
 .Jouter .Jinner:hover{
-  box-shadow:8px 8px 8px white;
+  box-shadow:0 10px 20px rgba(0,0,0,.60), 0 4px 8px rgba(0,0,0,.06);
+  transform: scale(1.05);
 }
 .Jouter .Jinnersecond{
   padding-bottom: 7px;
