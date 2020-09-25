@@ -263,17 +263,21 @@ body {
   color:  #073F5D;
   visibility: hidden;
   opacity: 0;
-  transition: 0.3s ease-in-out;
-
 }
 .Jepicsec .Jcard .Jcontent p{
   color: white;
 }
+
+.Jepicsec .Jcard:hover{
+  visibility: visible;
+  transition: 0.7s;
+}
+
 .Jepicsec .Jcard:hover .Jcontent{
   visibility: visible;
   opacity: 1;
   margin-top: -40px;
-  transition-delay: 0.3s;
+  transition-delay: 0.5s;
 }
 .Jepicsec .Jcard .Jcontent h1{
   font-family:'Pacifico', cursive;
