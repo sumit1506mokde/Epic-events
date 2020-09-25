@@ -349,6 +349,164 @@ body {
 
 
 
+/* our services start*/
+.our-services{
+  background-color: #f2f2f2
+}
+
+
+ #EPIC .card-container{
+  position: relative;
+  
+  width: 300px;
+  height: 300px;
+  border: 0px;
+  
+}
+
+#EPIC .card-container .card .card-header{
+  background: linear-gradient(to top left, #cc00cc 5%, #ff0000 97%);
+  border-radius: 5px;
+  box-shadow: 0px 8px 10px black;
+  z-index: 1;
+  color: white;
+  font-family:'Pacifico', cursive;
+}
+
+#EPIC .card-container .card .card-body{
+  border-radius: 0px 0px 8px 8px;
+  background-color: #f2f2f2;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+#EPIC .card-container .card .card-body svg{
+  color: white;
+  position: relative;
+  top: 79%;
+  left: 95%
+}
+
+#EPIC .card-container .card-back .card-body{
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 14px;
+  background-color: #073f5d;
+  color: white
+}
+
+#EPIC .card-container .card-back .card-body a{
+  background: linear-gradient(to top left, #cc00cc 5%, #ff0000 97%);
+  color: white;
+}
+
+#EPIC .card-container .card-back .card-body a:hover {
+  background: linear-gradient(to bottom right, #cc0099 15%, #00ccff 100%);
+  color: white;
+}
+
+#EPIC .card-container:hover .card-front{
+  transform: rotateY(180deg);
+}
+
+#EPIC .card-container:hover .card-back{
+  transform: rotateY(0deg);
+}
+
+#EPIC .card-container .card-back{
+  transform: rotateY(180deg);
+}
+
+#EPIC .card-container .card{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: all 0.9s;
+  backface-visibility: hidden;
+  border: 0px;
+  background-color: #f2f2f2
+}
+
+#EPIC .card-container .card-back .card-body{
+  position: relative;
+}
+
+#EPIC .card-container .card-body a{
+  position: relative;
+  left: 55%;
+ 
+} 
+
+#EPIC .card-container #wedding{
+  background-image: url('Wed.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 0px 0px 8px 8px;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+#EPIC .card-container #grand{
+  background-image: url('Annual.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 0px 0px 8px 8px;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+#EPIC .card-container #party{
+  background-image: url('bday.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 0px 0px 8px 8px;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+#EPIC .card-container #function{
+  background-image: url('exhibition.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 0px 0px 8px 8px;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+#EPIC .card-container #corporate{
+  background-image: url('corporate.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 0px 0px 8px 8px;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+#EPIC .card-container #concert{
+  background-image: url('concert.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 0px 0px 8px 8px;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+/* our services end*/
+
+
+
 
 
 
