@@ -563,16 +563,15 @@ body {
 /*media icons fix start*/
 .stickbtn{
   position: fixed;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background:#ff6600;
   border-radius: 100px;
-  border:1.5px solid #073f5d;
-  right: 10px;
+  right: 6px;
   text-decoration: none;
   text-align: center;
-  line-height: 40px;
-  font-size: 20px;
+  line-height: 30px;
+  font-size: 15px;
   color: white;
   z-index: 1;
 }
