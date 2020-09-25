@@ -449,7 +449,7 @@ body {
 }
 
 #EPIC .card-container #grand{
-  background-image: url('Annual.jpg');
+  background-image: url('grand.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -471,7 +471,7 @@ body {
 }
 
 #EPIC .card-container #function{
-  background-image: url('exhibition.jpg');
+  background-image: url('anni.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
