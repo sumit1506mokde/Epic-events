@@ -125,6 +125,14 @@ body {
     margin-top: 15px;
     margin-bottom: 20px;
 }
+.Wicon a{
+    text-decoration: none;
+    color: black;
+}
+.Wicon a:hover{
+    text-decoration: none;
+    color: #ff6600;
+}
 
 /*/*our services logos end*/
 
