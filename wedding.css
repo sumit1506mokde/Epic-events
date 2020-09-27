@@ -449,3 +449,23 @@ body {
   text-decoration: none;
 }
 /*footer end*/
+
+
+/*back to top button*/
+html{
+    scroll-behavior: smooth;
+}
+.gotopbtn{
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(to top left, #cc00cc 5%, #ff6600 97%);
+    border:1px solid white;
+    bottom: 20px;
+    right: 10px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    font-size: 30px;
+    color:black;
+}
