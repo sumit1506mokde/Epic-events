@@ -298,6 +298,7 @@ body {
 .cube h1{
     color: #073F5D;
     font-weight: 800;
+    text-align: center;
 }
 .wrapper{
     width: 200px;
