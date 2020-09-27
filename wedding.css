@@ -137,7 +137,152 @@ body {
 /*/*our services logos end*/
 
 
+/*wedding*/
+/*till large screens*/
+.imgleft .text{
+  border-right: 15px solid transparent; 
+  border-top: 15px solid transparent; 
+  border-bottom: 15px solid transparent; 
+  -moz-border-image: -moz-linear-gradient(left, #cc00cc 5%, #ff0000 97%);
+  -webkit-border-image: -webkit-linear-gradient(left, #cc00cc 5%, #ff0000 97%);
+  border-image: linear-gradient(to right, #cc00cc 5%, #ff0000 97%);
+  border-image-slice: 1;
+  background-color: #f2f2f2;
+  box-shadow: 0 6px 10px rgba(0,0,0,1), 0 0 6px rgba(0,0,0,.07);
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 15px
+}
 
+.imgleft img{
+  border-radius: 30px 5px 5px 30px;
+  height: 342px;
+  width: 570px;
+  box-shadow: 0 6px 10px rgba(0,0,0,1), 0 0 6px rgba(0,0,0,.07);
+
+}
+.imgright .text{
+  border-left: 15px solid transparent; 
+  border-top: 15px solid transparent; 
+  border-bottom: 15px solid transparent; 
+  -moz-border-image: -moz-linear-gradient(left, #cc00cc 5%, #ff0000 97%);
+  -webkit-border-image: -webkit-linear-gradient(left, #cc00cc 5%, #ff0000 97%);
+  border-image: linear-gradient(to right, #cc00cc 5%, #ff0000 97%);
+  border-image-slice: 1;
+  background-color: #f2f2f2;
+  box-shadow: 0 6px 10px rgba(0,0,0,1), 0 0 6px rgba(0,0,0,.07);
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 15px
+}
+
+.imgright img{
+  border-radius: 5px 30px 30px 5px;
+  width: 570px;
+  height: 342px;
+  box-shadow: 0 6px 10px rgba(0,0,0,1), 0 0 6px rgba(0,0,0,.07);
+}
+
+.imgright h2, .imgleft h2{
+  font-family:'Pacifico', cursive;
+}
+
+
+
+/*xs to large screens*/
+
+.Mimgleft .text{
+  border-left: 15px solid transparent; 
+  border-right: 15px solid transparent; 
+  border-bottom: 15px solid transparent; 
+  -moz-border-image: -moz-linear-gradient(left, #cc00cc 5%, #ff0000 97%);
+  -webkit-border-image: -webkit-linear-gradient(left, #cc00cc 5%, #ff0000 97%);
+  border-image: linear-gradient(to right, #cc00cc 5%, #ff0000 97%);
+  border-image-slice: 1;
+  background-color: #f2f2f2;
+  box-shadow: 0 6px 10px rgba(0,0,0,1), 0 0 6px rgba(0,0,0,.07);
+}
+
+.Mimgleft img{
+  border-radius: 30px 30px 0px 0px;
+  height: 342px;
+  width: 570px;
+  box-shadow: 0 6px 10px rgba(0,0,0,1), 0 0 6px rgba(0,0,0,.07);
+
+}
+
+.Mimgright .text{
+  border-left: 15px solid transparent; 
+  border-right: 15px solid transparent; 
+  border-bottom: 15px solid transparent; 
+  -moz-border-image: -moz-linear-gradient(left, #cc00cc 5%, #ff0000 97%);
+  -webkit-border-image: -webkit-linear-gradient(left, #cc00cc 5%, #ff0000 97%);
+  border-image: linear-gradient(to right, #cc00cc 5%, #ff0000 97%);
+  border-image-slice: 1;
+  background-color: #f2f2f2;
+  box-shadow: 0 6px 10px rgba(0,0,0,1), 0 0 6px rgba(0,0,0,.07);
+}
+
+.Mimgright img{
+  border-radius: 30px 30px 0px 0px;
+  width: 570px;
+  height: 342px;
+  box-shadow: 0 6px 10px rgba(0,0,0,1), 0 0 6px rgba(0,0,0,.07);
+}
+
+.Mimgright h2, .Mimgleft h2{
+  font-family:'Pacifico', cursive;
+}
+
+/* weddind services end*/
+
+
+/*********gallery*************/
+
+.gallery{
+  height: 300px;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+.tbox
+{
+  position: relative;
+  left: 40%;
+  width: 230px;
+  height: 150px;
+  transform-style: preserve-3d;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100%
+  {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+.tbox span
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 110%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 45deg)) translatez(400px);
+    -webkit-box-reflect:below 0px linear-gradient(transparent,transparent,#0004);   
+}
+.tbox span img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 
