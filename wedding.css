@@ -235,12 +235,17 @@ body {
 /* weddind services end*/
 
 
-/*********gallery*************/
-
+/*********gallery start*************/
+/* for lg screen*/
 .gallery{
   height: 300px;
-  margin-top: 12%;
+  margin-top: 8%;
   margin-bottom: 5%;
+}
+.galhed{
+    padding-top: 50px;
+    color: #073F5D;
+    font-weight: 800;
 }
 .tbox
 {
@@ -249,7 +254,7 @@ body {
   width: 230px;
   height: 150px;
   transform-style: preserve-3d;
-  animation: animate 20s linear infinite;
+  animation: animate 50s linear infinite;
 }
 @keyframes animate
 {
@@ -283,6 +288,97 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+/*for small size (cube)*/
+.cube{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+}
+.cube h1{
+    color: #073F5D;
+    font-weight: 800;
+}
+.wrapper{
+    width: 200px;
+    height: 200px;
+    margin: 10% auto;
+}
+.box-area{
+    animation: animatecube 10s ease-in-out infinite;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+}
+.box-area div{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+}
+.box-area .box1{
+    background-image: url(Wgall1.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    transform: translateZ(100px);
+}
+.box-area .box2{
+    background-image: url(Wgall2.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    transform: rotateY(90deg) translateZ(100px);
+}
+.box-area .box3{
+    background-image: url(Wgall4.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px) ;
+}
+.box-area .box4{
+    background-image: url(Wgall5.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px) ;
+}
+.box-area .box5{
+    background-image: url(Wgall3.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px) ;
+}
+.box-area .box6{
+    background-image: url(Wgall8.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    transform: rotateX(-90deg) translateZ(100px) ;
+}
+@keyframes animatecube{
+    from,to {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    16%{
+        transform: rotateY(-90deg);
+    }
+    33%{
+        transform: rotateY(-90deg)rotateZ(90deg);
+    }
+    50%{
+        transform: rotateY(-180deg)rotateZ(90deg);
+    }
+    66%{
+        transform: rotateY(-270deg)rotateX(90deg);
+    }
+    83%{
+        transform: rotateX(90deg);
+    }
+}
+
+/*gallery end*/
 
 
 
