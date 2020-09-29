@@ -327,14 +327,14 @@ body {
     transform: rotateY(90deg) translateZ(100px);
 }
 .box-area .box3{
-    background-image: url(Corp3.png);
+    background-image: url(Corp4.png);
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center center;
     transform: rotateY(90deg) rotateX(90deg) translateZ(100px) ;
 }
 .box-area .box4{
-    background-image: url(Corp4.jpg);
+    background-image: url(Corp3.jpg);
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center center;
