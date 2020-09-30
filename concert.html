@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Concerts</title>
+	 <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="concert.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet"><!--font link-->
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet"><!--font link-->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"><!--card font-->
+	   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--for scroll-->
+     <!--Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <script src="js/jquery-3.5.1.slim.min.js"></script>
+
+</head>
+<body>
+    <a name="top"></a>
+	<!--Navbar Start-->  
+	<nav class="navbar navbar-expand-xl fixed-top header">
+        <div class="container-fluid" style="border-bottom: 3px solid #FF6600; margin-bottom: 0px;">
+
+            <a href="Epic.html" class="navbar-brand mr-6 d-none d-xs-block"><img src="logo.PNG" height="75" width="300"></a>
+            <a href="Epic.html" class="navbar-brand mr-6 d-block d-xs-none"><img src="logo.PNG" height="75" width="250"></a>
+
+            <button id="navbarToggle" class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse " id="main-navigation">
+                <ul class="navbar-nav" style="align-items: center;">
+                    <li class="nav-item">
+                        <a class="nav-link btnn  btn3 btnhome" href="Epic.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btnn btn3" href="gallery_page.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle btnn btn3 btnevent" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Events</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"> Weddings</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"> Annual function</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"> Party</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"> Birthday</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"> Concert</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"> Baby shower</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btnn btn3" href="contact_page.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btnn btn3" href="contact_page.html">Contact</a>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+    </nav>
+    <!--Navbar end-->
+
+    <!-- big image start-->
+    <div class="bigimg">
+        <div class="bigimginside">
+            <h1>- CONCERTS -</h1><br><br>
+            <h2 class="ml2 d-none d-lg-block">Experience What You Dreamt Of</h2>
+            <h2 class="ml1 d-block d-lg-none">Experience What You Dreamt Of</h2>
+        </div>
+    </div>
+    <!-- big image end -->
+
+    <!-- our services logos start -->
+    <!-- for lg screen -->
+    <div class="d-none d-lg-block">
+        <div class="container Wservice">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12" data-aos="fade-up">
+                    <h2 class="serviceh2">Concerts Sevices Provided By Us</h2>
+                </div>
+                <div class="col-6 col-md-3 Wicon">
+                    <a href="#photo" data-aos="zoom-in"><img src="Wicon3.PNG" width="60px" height="70px"></a>
+                    <a href="#photo"><h5>Photography +<br>Videography</h5></a>
+                </div>
+                <div class="col-6 col-md-3 Wicon">
+                    <a href="#catering" data-aos="zoom-in"><img src="Wicon4.PNG" width="80px" height="70px"></a>
+                    <a href="#catering"><h5>Catering</h5></a>
+                </div>
+                <div class="col-6 col-md-3 Wicon">
+                    <a href="#entertainment" data-aos="zoom-in"><img src="Wicon2.PNG" width="80px" height="70px"></a>    
+                    <a href="#entertainment"><h5>Enterntainment</h5></a>
+                </div>
+                <div class="col-6 col-md-3 Wicon">
+                    <a href="#reception" data-aos="zoom-in"><img src="Wicon8.PNG" width="60px" height="70px"></a>
+                    <a href="#reception"><h5>Venue + <br> Decoration</h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- for sm screen -->
+    <div class="d-block d-lg-none">
+        <div class="container Wservice">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12" data-aos="fade-up">
+                    <h2 class="serviceh2">Concert Services Provided By Us</h2>
+                </div>
+                <div class="col-6 col-md-3 Wicon">
+                    <a href="#Jphoto" data-aos="zoom-in"><img src="Wicon3.PNG" width="60px" height="70px"></a>
+                    <a href="#Jphoto"><h5>Photography +<br>Videography</h5></a>
+                </div>
+                <div class="col-6 col-md-3 Wicon">
+                    <a href="#Jcatering" data-aos="zoom-in"><img src="Wicon4.PNG" width="80px" height="70px"></a>
+                    <a href="#Jcatering"><h5>Catering</h5></a>
+                </div>
+                <div class="col-6 col-md-3 Wicon">
+                    <a href="#Jentertainment" data-aos="zoom-in"><img src="Wicon2.PNG" width="80px" height="70px"></a>    
+                    <a href="#Jentertainment"><h5>Enterntainment</h5></a>
+                </div>
+                <div class="col-6 col-md-3 Wicon">
+                    <a href="#Jreception" data-aos="zoom-in"><img src="Wicon8.PNG" width="60px" height="70px"></a>
+                    <a href="#Jreception"><h5>Venue + <br> Decoration</h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our services logos start -->
+
+
+<a id="venue"></a>
+<!------------Dekstop view start------------------------->
+<!------------container fluid start------------------->
+<div class="container-fluid d-none d-lg-block">
+
+    <a id="photo"></a>
+    <div class="row">
+        <div class="container mt-5 mb-4">
+            <div class="row d-flex justify-content-center imgright">
+                <div class="col-lg-6 m-0 p-3 text align-self-center" data-aos="fade-right"> 
+                    <center><h1>Concerts</h1></center>
+                    An exquisite wonderful Concert that looks like Breeze and amusing to wait. 
+                    The very middle essence of occasions which includes Live Concerts is the perfect planning, execution without skipping a beat.
+                    Organizing a concert, display or gig wishes enough time, manpower and substances to maintain your audiences engaged with track, 
+                    play or different elements. We have a decade complete of information to face up to and suffice 
+                    a dependable enjoy in all types of concert events.
+                    Our pre-planning team makes it sure that we’ve whole statistics on the reason, tasks, expectations of the event plan.
+                </div>
+                <div class="col-lg-6 m-0 p-0" data-aos="fade-left">
+                  <img src="concert5.jpg" class="img img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container fluid row 4 end-->
+
+    <a id="catering"></a>
+    <div class="row">
+        <div class="container mt-4 mb-4">
+            <div class="row d-flex justify-content-center imgleft">
+                <div class="col-lg-6 m-0 p-0" data-aos="fade-right">
+                  <img src="Anniversaryphoto.jpg" class="img img-fluid">
+                </div>  
+                <div class="col-lg-6 m-0 p-3 text align-self-center" data-aos="fade-left"> 
+                    <center><h1>Photography & Videography</h1></center>
+                    It is your concert and you are surrounded by your nearest and dearest & creating memories that will last a lifetime. While you will have to hire a photographer, hiring a professional videographer or cinematographer is essential. These moments are once in a lifetime so you have to make them count.
+                    We will arrange you for the best videographers and photographers that suit your style and budget and help you savour every moment while you star in your very own movie.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container fluid row 5 end-->
+
+    <a id="entertainment"></a>
+    <div class="row">
+        <div class="container mt-4 mb-4">
+            <div class="row d-flex justify-content-center imgright">
+                <div class="col-lg-6 m-0 p-3 text align-self-center" data-aos="fade-right"> 
+                    <center><h1>Catering</h1></center>
+                    The meals at your concert events are often used as a judging factor on how the whole event was.
+                    Since the food and beverages often constitute a major chunk of your event budget,
+                    it is imperative that you get the best that you can afford. Finding a good caterer is definitely high up on the event planning to-do list.
+                    We will consult and coordinate menu selections, design, presentation & styling. 
+                    We will make sure you get the service you need with the appropriate service staff and presentation.
+                </div>
+                <div class="col-lg-6 m-0 p-0" data-aos="fade-left">
+                  <img src="Wcatering.jpg" class="img img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container fluid row 6 end-->
+
+    <a id="reception"></a>
+    <div class="row">
+        <div class="container mt-4 mb-4">
+            <div class="row d-flex justify-content-center imgleft">
+                <div class="col-lg-6 m-0 p-0" data-aos="fade-right">
+                  <img src="Wenter.jpg" class="img img-fluid">
+                </div>
+                <div class="col-lg-6 m-0 p-3 text align-self-center" data-aos="fade-left"> 
+                    <center><h1>Entertainment</h1></center>
+                    No event in India is complete without a little music or let’s face it a lot of it! Hiring a DJ for your functions is a popular practice and it is important to find a professional DJ. Another great option is to hire a live band or musicians to add the perfect harmonious touch to the grand event you can even have them perform ‘your’ song as you dance at the function. Folk singers, pop singers, jazz bands etc… find one that suits your musical tastes.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container fluid row 7 end-->
+
+    <div class="row">
+        <div class="container mt-4 mb-4">
+            <div class="row d-flex justify-content-center imgright">
+                <div class="col-lg-6 m-0 p-3 text align-self-center" data-aos="fade-right"> 
+                    <center><h1>Venue & Decoration</h1></center>
+                    When it comes to concert event planning, choosing the perfect event venue is by far one of the most important things you need to decide in advance.
+                    Event décorations should be a harmonious blend of various design aspects like lighting, decorations, table settings etc.
+                    We will conceptualize, create and coordinate themes and all your décor desires, in conjunction with your vision. EPIC will take care of it all making the best use of your budget. So get started with us at the earliest!
+                </div>
+                <div class="col-lg-6 m-0 p-0" data-aos="fade-left">
+                  <img src="concert4.jpg" class="img img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container fluid row 8 end-->
+
+</div><!----------container fluid end-------------->
+<!-------------------Dekstop view end------------------------->
+
+
+
+
+<!---------------------mobile view start------------------------>
+<!------------container fluid start------------------->
+<div class="container-fluid d-block d-lg-none">
+
+    <a id="Jvenue"></a>
+    <div class="row">
+        <div class="container mt-4 mb-4 ml-3 mr-3">
+            <div class="row d-flex justify-content-center Mimgright">
+                <div class="col-lg-6 m-0 p-0" data-aos="fade-up">
+                  <img src="concert5.jpg" class="img img-fluid">
+                </div>
+                <div class="col-lg-6 m-0 p-3 text align-self-center" data-aos="fade-up"> 
+                    <center><h1>Concerts</h1></center>
+                    An exquisite wonderful Concert that looks like Breeze and amusing to wait. 
+                    The very middle essence of occasions which includes Live Concerts is the perfect planning, execution without skipping a beat.
+                    Organizing a concert, display or gig wishes enough time, manpower and substances to maintain your audiences engaged with track, 
+                    play or different elements. We have a decade complete of information to face up to and suffice 
+                    a dependable enjoy in all types of concert events.
+                    Our pre-planning team makes it sure that we’ve whole statistics on the reason, tasks, expectations of the event plan.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container fluid row 4 end-->
+
+    <a id="Jphoto"></a>
+    <div class="row">
+        <div class="container mt-4 mb-4 ml-3 mr-3">
+            <div class="row d-flex justify-content-center Mimgleft">
+                <div class="col-lg-6 m-0 p-0" data-aos="fade-up">
+                  <img src="Anniversaryphoto.jpg" class="img img-fluid">
+                </div>  
+                <div class="col-lg-6 m-0 p-3 text align-self-center" data-aos="fade-up"> 
+                    <center><h1>Photography & Videography</h1></center>
+                    It is your concert event and you are surrounded by your nearest and dearest & creating memories that will last a lifetime. While you will have to hire a photographer, hiring a professional videographer or cinematographer is essential. These moments are once in a lifetime so you have to make them count.
+                    We will arrange you for the best videographers and photographers that suit your style and budget and help you savour every moment while you star in your very own movie.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container fluid row 5 end-->
+
+    <a id="Jcatering"></a>
+    <div class="row">
+        <div class="container mt-4 mb-4 ml-3 mr-3">
+            <div class="row d-flex justify-content-center Mimgright">
+                <div class="col-lg-6 m-0 p-0" data-aos="fade-up">
+                  <img src="Wcatering.jpg" class="img img-fluid">
+                </div>
+                <div class="col-lg-6 m-0 p-3 text align-self-center" data-aos="fade-up"> 
+                    <center><h1>Catering</h1></center>
+                    The meals at your concert events are often used as a judging factor on how the whole event was.
+                    Since the food and beverages often constitute a major chunk of your event budget,
+                    it is imperative that you get the best that you can afford. Finding a good caterer is definitely high up on the event planning to-do list.
+                    We will consult and coordinate menu selections, design, presentation & styling. 
+                    We will make sure you get the service you need with the appropriate service staff and presentation.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container fluid row 6 end-->
+
+    <a id="Jentertainment"></a>
+    <div class="row">
+        <div class="container mt-4 mb-4 ml-3 mr-3">
+            <div class="row d-flex justify-content-center Mimgleft">
+                <div class="col-lg-6 m-0 p-0" data-aos="fade-up">
+                  <img src="Wenter.jpg" class="img img-fluid">
+                </div>
+                <div class="col-lg-6 m-0 p-3 text align-self-center" data-aos="fade-up"> 
+                    <center><h1>Entertainment</h1></center>
+                    No event in India is complete without a little music or let’s face it a lot of it! Hiring a DJ for your functions is a popular practice and it is important to find a professional DJ. Another great option is to hire a live band or musicians to add the perfect harmonious touch to the grand event you can even have them perform ‘your’ song as you dance at the function. Folk singers, pop singers, jazz bands etc… find one that suits your musical tastes.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container fluid row 7 end-->
+
+    <a id="Jreception"></a>
+    <div class="row">
+        <div class="container mt-4 mb-4 ml-3 mr-3">
+            <div class="row d-flex justify-content-center Mimgright">
+                <div class="col-lg-6 m-0 p-0" data-aos="fade-up">
+                  <img src="concert4.jpg" class="img img-fluid">
+                </div>
+                <div class="col-lg-6 m-0 p-3 text align-self-center" data-aos="fade-up"> 
+                    <center><h1>Venue & Decoration</h1></center>
+                    When it comes to concert event planning, choosing the perfect event venue is by far one of the most important things you need to decide in advance.
+                    Event décorations should be a harmonious blend of various design aspects like lighting, decorations, table settings etc.
+                    We will conceptualize, create and coordinate themes and all your décor desires, in conjunction with your vision. EPIC will take care of it all making the best use of your budget. So get started with us at the earliest!
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--container fluid row 8-->
+
+</div><!--container fluid end-->
+<!---------------------mobile view end------------------------>
+
+    
+    <!-----gallery-------------->
+    <!-- for lg screen -->
+    <div class="d-none d-lg-block">
+        <h1 class="d-flex justify-content-center galhed" data-aos="fade-up">Some Of Our Best Work</h1>
+    </div>
+    <div class="container-fluid gallery d-none d-lg-block">
+        <div class="tbox">
+            <span style="--i:1"><img src="concert2.jpg" class="img img-fluid"></span>
+            <span style="--i:2"><img src="concert3.jpg" class="img img-fluid"></span>
+            <span style="--i:3"><img src="concert6.jpg" class="img img-fluid"></span>
+            <span style="--i:4"><img src="concert7.jpg" class="img img-fluid"></span>
+            <span style="--i:5"><img src="concert8.jpg" class="img img-fluid"></span>
+            <span style="--i:6"><img src="concert9.jpg" class="img img-fluid"></span>
+            <span style="--i:7"><img src="Concert1.jpg" class="img img-fluid"></span>
+            <span style="--i:8"><img src="concert10.jpg" class="img img-fluid"></span>
+        </div>
+    </div>
+
+    <!-- for small screen -->
+    <div class="container d-block d-lg-none cube">
+        <h1 class="d-flex justify-content-center" data-aos="fade-up">Some Of Our Best Work</h1>
+        <div class="wrapper" data-aos="fade-up">
+            <div class="box-area">
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <div class="box4"></div>
+                <div class="box5"></div>
+                <div class="box6"></div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery end -->
+
+
+
+
+
+    <!--footer start-->
+    <footer id="footer">
+        <div class="container-fluid" style="background-color: #ff6600">
+            <div class="container-fluid pl-4">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-12 col-sm-12 col-12 footer-newsletter" style="background-color: #ff6600">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-4 col-sm-5 col-12 d-flex justify-content-center">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 m-0 p-0">
+                                        <h3>Sign Up</h3><br>
+                                    </div>
+                            
+                                    <div class="col-12 col-sm-12 p-0 m-0">
+                                    <p style="font-size: 18px; color: #073f5d;"><b>To get updates from Us.</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-sm-7 col-12">
+                                <form action="" method="post">
+                                    <input type="email" name="email"><input type="submit" value="subscribe">
+                                </form>
+                            </div>                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row ml-3 mr-3">
+                    <div class="col-lg-4 col-md-6 col-12 align-self-center d-flex justify-content-center mb-5"  style="background-color: #073f5d;">
+                        <div class="footer-info align-self-center">
+                            <img src="logo.PNG" class="img img-fluid" width="290px" data-aos="fade-up">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-6 footer-links mb-3" data-aos="fade-up">
+                        <ul>
+                            <li>
+                                <h4>Information</h4>
+                            </li>
+                            <li>
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                                </svg><a href="#">About Us</a>
+                            </li>
+                    
+                            <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                                </svg> <a href="#">Testimonials</a>
+                            </li>
+                            <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                                </svg> <a href="#">Events</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-6 footer-links mb-3" data-aos="fade-up">
+                        <ul>
+                            <li>
+                                <h4>Links</h4>
+                            </li>
+                            <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                                </svg> <a href="#">Contact Us</a>
+                            </li>
+                            <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                                </svg> <a href="#">Terms & Conditions</a>
+                            </li>
+                            <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                                </svg> <a href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 about-us d-flex justify-content-center mb-3" data-aos="fade-up">
+                        <div>
+                          <h4>Contact Us</h4>
+                              <i class="fa fa-phone" style="color: #ff6600; font-size: 19px"></i><br><p style="font-size: 17px; color: white">+919860764333</p> 
+                              <i class="fa fa-envelope" style="color: #ff6600;  font-size: 19px"></i><br><p style="font-size: 17px"><a href="mailto:support@sacchidanandutech.com" style="color: white" class="id">epiceventmanagement@gmail.com</a></p>
+                              <br>
+                        </div>    
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container ">
+            <div class="copyright pb-0">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center mb-2">
+                        <h3>Encircling Your Dream Event</h3>
+                    </div>
+                </div>
+                <div class="social-links mb-3">
+                    <a href="#" class="twitter"><i class="fa fa-twitter fa-sm"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook fa-sm"></i></a>
+                    <a href="#" class="instagram"><i class="fa fa-instagram fa-sm"></i></a>
+                    <a href="#" class="googleplus"><i class="fa fa-google-plus fa-sm"></i></a>
+                </div>
+                &copy; Copyright <strong><span>EPIC Events</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- back to top arrow -->
+    <a href="#top" class="gotopbtn"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+    <!--JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+    <script>
+      AOS.init({
+      duration: 1200,
+    })
+    </script>
+
+    <!--script for the nav bar toggler button to collapse back automatically when clickes somewhere else-->
+    <script>
+       $(function () { 
+          $("#navbarToggle").blur(function (event) {
+            var screenWidth = window.innerWidth;
+            if (screenWidth < 1025) {
+              $("#main-navigation").collapse('hide');
+            }
+          });
+
+          // In Firefox and Safari, the click event doesn't retain the focus
+          // on the clicked button. Therefore, the blur event will not fire on
+          // user clicking somewhere else in the page and the blur event handler
+          // which is set up above will not be called.
+          // Refer to issue #28 in the repo.
+          // Solution: force focus on the element that the click event fired on
+          $("#navbarToggle").click(function (event) {
+            $(event.target).focus();
+          });
+        });
+
+    </script>
+    <!--navbar toggler script end-->
+
+    <!-- text anim in slider start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+        // Wrap every letter in a span
+        var textWrapper = document.querySelector('.ml1');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter1'>$&</span>");
+
+        anime.timeline({loop: true})
+          .add({
+            targets: '.ml1 .letter1',
+            opacity: [0,1],
+            easing: "easeInOutQuad",
+            duration: 2250,
+            delay: (el, i) => 150 * (i+1)
+          }).add({
+            targets: '.ml1',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 1000
+          });
+
+        // Wrap every letter in a span
+        var textWrapper = document.querySelector('.ml2');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter2'>$&</span>");
+
+        anime.timeline({loop: true})
+          .add({
+            targets: '.ml2 .letter2',
+            translateX: [40,0],
+            translateZ: 0,
+            opacity: [0,1],
+            easing: "easeOutExpo",
+            duration: 1200,
+            delay: (el, i) => 500 + 30 * i
+          }).add({
+            targets: '.ml2 .letter2',
+            translateX: [0,-30],
+            opacity: [1,0],
+            easing: "easeInExpo",
+            duration: 1100,
+            delay: (el, i) => 100 + 30 * i
+          });
+    </script>
+
+    <!-- text anim in slider end -->
+
+</body>
+</html>
